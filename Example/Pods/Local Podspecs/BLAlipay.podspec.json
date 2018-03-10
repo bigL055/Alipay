@@ -1,18 +1,18 @@
 {
   "name": "BLAlipay",
   "version": "0.1.0",
-  "summary": "A short description of BLAlipay.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/bigL055/BLAlipay",
+  "summary": "快速集成 alipay-SDK",
+  "description": "快速集成alipaySDK",
+  "homepage": "https://github.com/bigL055/Alipay",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "bigL055": "158179948@qq.com"
+    "linhey": " linhan.linhey@outlook.com"
   },
   "source": {
-    "git": "https://github.com/bigL055/BLAlipay.git",
+    "git": "https://github.com/bigL055/Alipay.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,5 +21,23 @@
   "source_files": "BLAlipay/**/*",
   "resources": "BLAlipay/AlipaySDK.bundle",
   "vendored_frameworks": "BLAlipay/AlipaySDK.framework",
-  "public_header_files": "BLAlipay/AlipaySDK.framework/Headers/**/*.h"
+  "public_header_files": "BLAlipay/AlipaySDK.framework/Headers/**/*.h",
+  "frameworks": [
+    "AlipaySDK",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "UIKit",
+    "CFNetwork",
+    "CoreMotion",
+    "Foundation",
+    "UIKit"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "sqlite3"
+  ]
 }

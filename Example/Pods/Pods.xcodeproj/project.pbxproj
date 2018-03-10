@@ -7,24 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02199843679910214648904AACA9C70F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CD1EB8D3E51A643BA892CB51423EB1 /* CoreText.framework */; };
+		09B2D759FA46C2F28A0E2C5C0ABDA847 /* bar@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E7941D650D8DF19BDF2F173200203616 /* bar@2x.png */; };
 		0F86B435E997746330B5B5E51450E6AB /* Pods-BLAlipay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374ED2F48352D605D0A013F3DAE38E3C /* Pods-BLAlipay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24561C870CCD87633462CFB6DA38A6C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		36FF18C3DC1D22B88007B3FDB95FC2A0 /* shutdown_click@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3811CF02F348A464E4DB225B0A612215 /* shutdown_click@2x.png */; };
-		39ED02272970D779A4F6EB38EDDA0BB2 /* bar@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E7941D650D8DF19BDF2F173200203616 /* bar@2x.png */; };
-		3D5DEFB666A7B2A7B56BC3B94F45201B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1DF68B39EA158AE9851A3A299EA0F74D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7135F6B13FDC2FF82C388384E0A8BC4B /* CoreTelephony.framework */; };
+		209B3B9136042460D01F74D2A445A7D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511C386445C9480CCCF9E1A0238A9D7C /* CoreGraphics.framework */; };
+		2C0ACAE32D1DBE39CBC8327ACBBFE085 /* shutdown@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DC1A30D7224F6B0942DF60F74BDFE1EB /* shutdown@2x.png */; };
+		3D5DEFB666A7B2A7B56BC3B94F45201B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920531516E03E67E05F1A66F783693F5 /* Foundation.framework */; };
+		433C9430CBFA6C2718BBBDCE91F98621 /* refresh@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 622AAB69D97B3B79074D7FD8C348D7A7 /* refresh@2x.png */; };
 		4A962225AB48DB521D590E38DB46BDAD /* Pods-BLAlipay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A68FC31167939C25176922F1DEB5E3 /* Pods-BLAlipay_Tests-dummy.m */; };
-		5A6CA31B633ECE63BFCCF239EC272233 /* refresh_click@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1960647FDFC3045644B85F1560DDF500 /* refresh_click@2x.png */; };
-		63CBF132F2DE2C49096B2117185E3F2F /* BLAlipay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14413F47B00889AE969CD8B4F1ED3A65 /* BLAlipay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B396DD3574714FD0F52BA0BF38E264A /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C7A954F3824197D5CF6422FE858723 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528BDFF397218157D16DA91ACFFC9437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920531516E03E67E05F1A66F783693F5 /* Foundation.framework */; };
+		5490781D7F04FBD09FE38F4968672219 /* refresh_click@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1960647FDFC3045644B85F1560DDF500 /* refresh_click@2x.png */; };
+		5F9310777B95EE2F2D1FA5E7AC322285 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCA32C6100BDC435AF65231A67DB256 /* SystemConfiguration.framework */; };
+		6A1CBFDA831E2F3119B83D7A1451320E /* BLAlipay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142BC30EEC473C88F4AA3AF937849464 /* BLAlipay-dummy.m */; };
+		7BA790966FD870A652E7105DA83D1923 /* BLAlipay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14413F47B00889AE969CD8B4F1ED3A65 /* BLAlipay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B3439F91B8E4493DE625B784CD39A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9F8F50CA92CE637002A9B6FD4DE5FC /* CFNetwork.framework */; };
+		8C69FE1FA92194397C70384ECE46A24C /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC8AC14E95604E4C53B7DFBC09D34C1 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D77557E7010BBB6CD105D0393E10273 /* Pods-BLAlipay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 797208DFD9C35B281180E253BD094483 /* Pods-BLAlipay_Example-dummy.m */; };
-		92628250BE0E03D0F6E0F70A408887CA /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC8AC14E95604E4C53B7DFBC09D34C1 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97A529D90F649D54DB654C29338E15A6 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DA5BB73624C8C140F88F47595C3EF /* AlipaySDK.bundle */; };
+		95C348CEE6B54CCB44D331AA829B161A /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C7A954F3824197D5CF6422FE858723 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		989F19D7B541ABE23CD682374720455F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24941A43052A233E491A1303A37EA45 /* QuartzCore.framework */; };
 		A0D592F2FDCD3BBF43F5A37354F68A24 /* Pods-BLAlipay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F195715789FB7BEBB5001EA36CC548E8 /* Pods-BLAlipay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3872DBE0A4519F35D7B91E71E8AA5FB /* BLAlipay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142BC30EEC473C88F4AA3AF937849464 /* BLAlipay-dummy.m */; };
-		BBE2E824C1751631E834F3E5F32271F4 /* shutdown@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DC1A30D7224F6B0942DF60F74BDFE1EB /* shutdown@2x.png */; };
-		C620A617FF51D3F3DD247C36C45AF540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D9D854BBAC654425BBAE12988CF60876 /* AlipaySDK in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A6D1100B45D600C7ED7D56CBC141 /* AlipaySDK */; };
-		E30F855D2F72335AD76CEFB23C305AB5 /* refresh@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 622AAB69D97B3B79074D7FD8C348D7A7 /* refresh@2x.png */; };
+		A492C1A669A8EB740C0474C032C29832 /* AlipaySDK in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A6D1100B45D600C7ED7D56CBC141 /* AlipaySDK */; };
+		A877B983E9FFA1353AAC4140CCA6DC3C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DC827B6428B510E718FC9338486E55 /* CoreMotion.framework */; };
+		BF47E20D6559087FE3AB13BD01C65935 /* shutdown_click@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3811CF02F348A464E4DB225B0A612215 /* shutdown_click@2x.png */; };
+		C620A617FF51D3F3DD247C36C45AF540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920531516E03E67E05F1A66F783693F5 /* Foundation.framework */; };
+		D16F06DD7DC57A1219B39497336ECC53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DB47F9D2FAB411260215200FCFC4A9 /* UIKit.framework */; };
+		DAA7826AED5124566D6F0795FE1F81F9 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A60713CD2292DDBEC931AC5ED22668 /* AlipaySDK.framework */; };
+		E4609A6086731B3A7D7EA92EBAD08D3E /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B5DA5BB73624C8C140F88F47595C3EF /* AlipaySDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +41,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AC311A9540D8220B74BFF71BF135EF1;
+			remoteGlobalIDString = E042260D8D2CBBCE87ACC0BDD11D4DDC;
 			remoteInfo = BLAlipay;
 		};
 /* End PBXContainerItemProxy section */
@@ -54,13 +63,16 @@
 		374ED2F48352D605D0A013F3DAE38E3C /* Pods-BLAlipay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLAlipay_Example-umbrella.h"; sourceTree = "<group>"; };
 		3811CF02F348A464E4DB225B0A612215 /* shutdown_click@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "shutdown_click@2x.png"; sourceTree = "<group>"; };
 		3817EBB253466EE42A7D88FFD4C18462 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCA32C6100BDC435AF65231A67DB256 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		3ED5CBC0A94F4CC2CBF277DB3495F380 /* Pods-BLAlipay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAlipay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		40CDD5ED20CE75B1847C2C6292A95BD3 /* Pods-BLAlipay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAlipay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		511C386445C9480CCCF9E1A0238A9D7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		5A4695DD19D834FAE7345C26312AA2C0 /* Pods-BLAlipay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BLAlipay_Example.modulemap"; sourceTree = "<group>"; };
 		622AAB69D97B3B79074D7FD8C348D7A7 /* refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
 		6400B7B50FFEE305A45F2DA070EBA07A /* BLAlipay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLAlipay.framework; path = BLAlipay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67D0C902F6079FEF43A413419C43DA4A /* Pods-BLAlipay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLAlipay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7135F6B13FDC2FF82C388384E0A8BC4B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		71A60713CD2292DDBEC931AC5ED22668 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AlipaySDK.framework; sourceTree = DEVELOPER_DIR; };
 		797208DFD9C35B281180E253BD094483 /* Pods-BLAlipay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLAlipay_Example-dummy.m"; sourceTree = "<group>"; };
 		7BB19286D126AC002EDBD8CFBB6C553A /* Pods-BLAlipay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLAlipay_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7CA6D6F43A84BBF3A0A716E8024621A9 /* Pods_BLAlipay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLAlipay_Tests.framework; path = "Pods-BLAlipay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,11 +82,17 @@
 		89896AC1DC1BFCAE6FD423BE9AFB5686 /* BLAlipay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLAlipay.modulemap; sourceTree = "<group>"; };
 		8BE043BB55ADA3BFF5D16629A982FFCB /* Pods-BLAlipay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAlipay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		906639601DB3808D0432EC78A4E79254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920531516E03E67E05F1A66F783693F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB513E20DB22D5C064E81BF9CF296AEC /* BLAlipay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLAlipay-prefix.pch"; sourceTree = "<group>"; };
+		AC9F8F50CA92CE637002A9B6FD4DE5FC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		AE4190F476CB3EEBD6E327A846E0F0F3 /* Pods-BLAlipay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BLAlipay_Tests.modulemap"; sourceTree = "<group>"; };
 		B2B374F5D22E210A60CC2818F7AD67B0 /* Pods-BLAlipay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLAlipay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2DB47F9D2FAB411260215200FCFC4A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3CD1EB8D3E51A643BA892CB51423EB1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		C4C7A954F3824197D5CF6422FE858723 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
+		C8DC827B6428B510E718FC9338486E55 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		D24941A43052A233E491A1303A37EA45 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D507CEAA2E4D9808ECCF13D046B2E9E0 /* BLAlipay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLAlipay.xcconfig; sourceTree = "<group>"; };
 		D6A68FC31167939C25176922F1DEB5E3 /* Pods-BLAlipay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLAlipay_Tests-dummy.m"; sourceTree = "<group>"; };
 		DB66FD172A9812942317C4CA4978D395 /* Pods-BLAlipay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAlipay_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +103,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E938A7D30329550CEEE2FF075AA6E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA7826AED5124566D6F0795FE1F81F9 /* AlipaySDK.framework in Frameworks */,
+				81B3439F91B8E4493DE625B784CD39A1 /* CFNetwork.framework in Frameworks */,
+				209B3B9136042460D01F74D2A445A7D3 /* CoreGraphics.framework in Frameworks */,
+				A877B983E9FFA1353AAC4140CCA6DC3C /* CoreMotion.framework in Frameworks */,
+				1DF68B39EA158AE9851A3A299EA0F74D /* CoreTelephony.framework in Frameworks */,
+				02199843679910214648904AACA9C70F /* CoreText.framework in Frameworks */,
+				528BDFF397218157D16DA91ACFFC9437 /* Foundation.framework in Frameworks */,
+				989F19D7B541ABE23CD682374720455F /* QuartzCore.framework in Frameworks */,
+				5F9310777B95EE2F2D1FA5E7AC322285 /* SystemConfiguration.framework in Frameworks */,
+				D16F06DD7DC57A1219B39497336ECC53 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABB87267C17660866A26317C92A85623 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,14 +133,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5DEFB666A7B2A7B56BC3B94F45201B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF044613F8C41195B4EA248177280DBE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24561C870CCD87633462CFB6DA38A6C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +192,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A751601BB0BB69A4DA8B461F35B8038C /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
 				71E4545669A97892269C9993BF265B31 /* Products */,
 				AF8D462F08419525B1A71A29F8E79393 /* Targets Support Files */,
 			);
@@ -179,6 +206,14 @@
 			);
 			name = Headers;
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9990269FDFDAA56B2A630D391E9371 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A2C236F26510C3165D9E0381A5839652 /* Frameworks */ = {
@@ -224,14 +259,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BD642D25BA25737FA09BF81E9A5067E6 /* AlipaySDK.bundle */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,14 +282,6 @@
 			path = BLAlipay/AlipaySDK.framework;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		EC0138C48994B5B8FFF020ABAFD021B4 /* Pods-BLAlipay_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +298,23 @@
 			);
 			name = "Pods-BLAlipay_Tests";
 			path = "Target Support Files/Pods-BLAlipay_Tests";
+			sourceTree = "<group>";
+		};
+		EC9990269FDFDAA56B2A630D391E9371 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71A60713CD2292DDBEC931AC5ED22668 /* AlipaySDK.framework */,
+				AC9F8F50CA92CE637002A9B6FD4DE5FC /* CFNetwork.framework */,
+				511C386445C9480CCCF9E1A0238A9D7C /* CoreGraphics.framework */,
+				C8DC827B6428B510E718FC9338486E55 /* CoreMotion.framework */,
+				7135F6B13FDC2FF82C388384E0A8BC4B /* CoreTelephony.framework */,
+				C3CD1EB8D3E51A643BA892CB51423EB1 /* CoreText.framework */,
+				920531516E03E67E05F1A66F783693F5 /* Foundation.framework */,
+				D24941A43052A233E491A1303A37EA45 /* QuartzCore.framework */,
+				3DCA32C6100BDC435AF65231A67DB256 /* SystemConfiguration.framework */,
+				B2DB47F9D2FAB411260215200FCFC4A9 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F15709702C3801C5CF22A75A1A60E930 /* Resources */ = {
@@ -308,37 +344,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA8F72920DD4A2DDDC3F31519E5668A1 /* Headers */ = {
+		D3640E55723A253C19F08EF9222FAA09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92628250BE0E03D0F6E0F70A408887CA /* AlipaySDK.h in Headers */,
-				8B396DD3574714FD0F52BA0BF38E264A /* APayAuthInfo.h in Headers */,
-				63CBF132F2DE2C49096B2117185E3F2F /* BLAlipay-umbrella.h in Headers */,
+				8C69FE1FA92194397C70384ECE46A24C /* AlipaySDK.h in Headers */,
+				95C348CEE6B54CCB44D331AA829B161A /* APayAuthInfo.h in Headers */,
+				7BA790966FD870A652E7105DA83D1923 /* BLAlipay-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AC311A9540D8220B74BFF71BF135EF1 /* BLAlipay */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 753D8454D9F1DE219BB8A390FFEE4734 /* Build configuration list for PBXNativeTarget "BLAlipay" */;
-			buildPhases = (
-				12883C7C40FE0C069B951F92ADC35504 /* Sources */,
-				DF044613F8C41195B4EA248177280DBE /* Frameworks */,
-				FA8F72920DD4A2DDDC3F31519E5668A1 /* Headers */,
-				FB3404925F4BB31F2BCBF8768573AAF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BLAlipay;
-			productName = BLAlipay;
-			productReference = 6400B7B50FFEE305A45F2DA070EBA07A /* BLAlipay.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9367C1B21FDC63E9FE6479941BBBDD13 /* Pods-BLAlipay_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E68AB34FD73425A9FA00F3E4D598D1D9 /* Build configuration list for PBXNativeTarget "Pods-BLAlipay_Example" */;
@@ -355,6 +373,24 @@
 			name = "Pods-BLAlipay_Example";
 			productName = "Pods-BLAlipay_Example";
 			productReference = 07BC183CBB8C519A40D92AAAEBA5D17F /* Pods_BLAlipay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E042260D8D2CBBCE87ACC0BDD11D4DDC /* BLAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9239E936B033595216E9FB9913B8832C /* Build configuration list for PBXNativeTarget "BLAlipay" */;
+			buildPhases = (
+				C21CD1CFBE446214CD9F80AC7A4D2E17 /* Sources */,
+				5E938A7D30329550CEEE2FF075AA6E86 /* Frameworks */,
+				D3640E55723A253C19F08EF9222FAA09 /* Headers */,
+				C69F96EFC0CBA5777DFCA06EBEBF2E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLAlipay;
+			productName = BLAlipay;
+			productReference = 6400B7B50FFEE305A45F2DA070EBA07A /* BLAlipay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E35213577A813807DB3EB55B7287F44C /* Pods-BLAlipay_Tests */ = {
@@ -395,7 +431,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AC311A9540D8220B74BFF71BF135EF1 /* BLAlipay */,
+				E042260D8D2CBBCE87ACC0BDD11D4DDC /* BLAlipay */,
 				9367C1B21FDC63E9FE6479941BBBDD13 /* Pods-BLAlipay_Example */,
 				E35213577A813807DB3EB55B7287F44C /* Pods-BLAlipay_Tests */,
 			);
@@ -403,11 +439,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FB3404925F4BB31F2BCBF8768573AAF3 /* Resources */ = {
+		C69F96EFC0CBA5777DFCA06EBEBF2E62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A529D90F649D54DB654C29338E15A6 /* AlipaySDK.bundle in Resources */,
+				E4609A6086731B3A7D7EA92EBAD08D3E /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,17 +458,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12883C7C40FE0C069B951F92ADC35504 /* Sources */ = {
+		C21CD1CFBE446214CD9F80AC7A4D2E17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D854BBAC654425BBAE12988CF60876 /* AlipaySDK in Sources */,
-				39ED02272970D779A4F6EB38EDDA0BB2 /* bar@2x.png in Sources */,
-				B3872DBE0A4519F35D7B91E71E8AA5FB /* BLAlipay-dummy.m in Sources */,
-				E30F855D2F72335AD76CEFB23C305AB5 /* refresh@2x.png in Sources */,
-				5A6CA31B633ECE63BFCCF239EC272233 /* refresh_click@2x.png in Sources */,
-				BBE2E824C1751631E834F3E5F32271F4 /* shutdown@2x.png in Sources */,
-				36FF18C3DC1D22B88007B3FDB95FC2A0 /* shutdown_click@2x.png in Sources */,
+				A492C1A669A8EB740C0474C032C29832 /* AlipaySDK in Sources */,
+				09B2D759FA46C2F28A0E2C5C0ABDA847 /* bar@2x.png in Sources */,
+				6A1CBFDA831E2F3119B83D7A1451320E /* BLAlipay-dummy.m in Sources */,
+				433C9430CBFA6C2718BBBDCE91F98621 /* refresh@2x.png in Sources */,
+				5490781D7F04FBD09FE38F4968672219 /* refresh_click@2x.png in Sources */,
+				2C0ACAE32D1DBE39CBC8327ACBBFE085 /* shutdown@2x.png in Sources */,
+				BF47E20D6559087FE3AB13BD01C65935 /* shutdown_click@2x.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +486,7 @@
 		16B896AFC95B7036EED85212B12C7C41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLAlipay;
-			target = 0AC311A9540D8220B74BFF71BF135EF1 /* BLAlipay */;
+			target = E042260D8D2CBBCE87ACC0BDD11D4DDC /* BLAlipay */;
 			targetProxy = 69C9BFE1D636B737513408CD842BE0D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -581,7 +617,7 @@
 			};
 			name = Debug;
 		};
-		71EC2850BAFBDC45CF42731826DE77E7 /* Release */ = {
+		484CCC2565B373278FA71000FF797D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D507CEAA2E4D9808ECCF13D046B2E9E0 /* BLAlipay.xcconfig */;
 			buildSettings = {
@@ -604,7 +640,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -699,7 +734,7 @@
 			};
 			name = Debug;
 		};
-		BDF9D0A3DCC709722EA1D81DFA6B0070 /* Debug */ = {
+		AFB7AC62A59A762682978A9489C938E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D507CEAA2E4D9808ECCF13D046B2E9E0 /* BLAlipay.xcconfig */;
 			buildSettings = {
@@ -722,7 +757,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -774,11 +808,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		753D8454D9F1DE219BB8A390FFEE4734 /* Build configuration list for PBXNativeTarget "BLAlipay" */ = {
+		9239E936B033595216E9FB9913B8832C /* Build configuration list for PBXNativeTarget "BLAlipay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDF9D0A3DCC709722EA1D81DFA6B0070 /* Debug */,
-				71EC2850BAFBDC45CF42731826DE77E7 /* Release */,
+				AFB7AC62A59A762682978A9489C938E2 /* Debug */,
+				484CCC2565B373278FA71000FF797D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

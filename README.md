@@ -22,7 +22,7 @@ pod 'BLAlipay'
 
 ## Author
 
-linhey: linhan.linhey@outlook.com
+bigL055, 158179948@qq.com
 
 ## License
 
