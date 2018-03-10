@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLAlipay_Example' do
+  pod 'BLAlipay', :path => '../'
+
+  target 'BLAlipay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

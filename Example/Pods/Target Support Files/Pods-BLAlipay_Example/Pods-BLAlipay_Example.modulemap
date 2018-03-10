@@ -1,0 +1,6 @@
+framework module Pods_BLAlipay_Example {
+  umbrella header "Pods-BLAlipay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

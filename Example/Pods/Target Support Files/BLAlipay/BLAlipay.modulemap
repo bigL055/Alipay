@@ -1,0 +1,6 @@
+framework module BLAlipay {
+  umbrella header "BLAlipay-umbrella.h"
+
+  export *
+  module * { export * }
+}

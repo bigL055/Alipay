@@ -1,0 +1,16 @@
+PODS:
+  - BLAlipay (0.1.0)
+
+DEPENDENCIES:
+  - BLAlipay (from `../`)
+
+EXTERNAL SOURCES:
+  BLAlipay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BLAlipay: a95e75a6d0374335401096eb681814da9955625b
+
+PODFILE CHECKSUM: 4fbcc52a318458afc108eaab0612ace35013e587
+
+COCOAPODS: 1.4.0

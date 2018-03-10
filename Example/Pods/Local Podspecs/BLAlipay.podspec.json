@@ -1,0 +1,25 @@
+{
+  "name": "BLAlipay",
+  "version": "0.1.0",
+  "summary": "A short description of BLAlipay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bigL055/BLAlipay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bigL055": "158179948@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/bigL055/BLAlipay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BLAlipay/**/*",
+  "resources": "BLAlipay/AlipaySDK.bundle",
+  "vendored_frameworks": "BLAlipay/AlipaySDK.framework",
+  "public_header_files": "BLAlipay/AlipaySDK.framework/Headers/**/*.h"
+}
