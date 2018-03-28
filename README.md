@@ -1,6 +1,6 @@
 # BLAlipay
 
-[![CI Status](http://img.shields.io/travis/bigL055/BLAlipay.svg?style=flat)](https://travis-ci.org/bigL055/BLAlipay)
+[![CI Status](http://img.shields.io/travis/linhay/BLAlipay.svg?style=flat)](https://travis-ci.org/linhay/BLAlipay)
 [![Version](https://img.shields.io/cocoapods/v/BLAlipay.svg?style=flat)](http://cocoapods.org/pods/BLAlipay)
 [![License](https://img.shields.io/cocoapods/l/BLAlipay.svg?style=flat)](http://cocoapods.org/pods/BLAlipay)
 [![Platform](https://img.shields.io/cocoapods/p/BLAlipay.svg?style=flat)](http://cocoapods.org/pods/BLAlipay)
@@ -22,7 +22,7 @@ pod 'BLAlipay'
 
 ## Author
 
-bigL055, 158179948@qq.com
+linhay: linhan.linhey@outlook.com
 
 ## License
 
